@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cqv0go3i7nb1w"]
+
+[ext_resource type="Texture2D" uid="uid://c0yaibvgbifb0" path="res://assets/backgroundv5shots.png" id="1_oabld"]
+
+[node name="background" type="Node2D" unique_id=947085918]
+
+[node name="Backgroundv5Shots" type="Sprite2D" parent="." unique_id=1483200197]
+position = Vector2(-1283, 222)
+texture = ExtResource("1_oabld")
+
+[node name="Backgroundv5Shots" type="Sprite2D" parent="Backgroundv5Shots" unique_id=1877803536]
+position = Vector2(1919, 0)
+texture = ExtResource("1_oabld")
+flip_h = true

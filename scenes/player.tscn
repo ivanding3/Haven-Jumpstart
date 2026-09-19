@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://cxoognry5vexl"]
 
-[ext_resource type="Texture2D" uid="uid://capkl86twjq80" path="res://icon.svg" id="1_4flbx"]
+[ext_resource type="Texture2D" uid="uid://dw4s2qkhnynkb" path="res://assets/C_bitmap.png" id="1_3vyb7"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rx8y4"]
-radius = 34.0
-height = 144.0
+radius = 18.75
+height = 93.75
 
 [node name="Player" type="CharacterBody2D" unique_id=928807285]
 
@@ -12,7 +12,7 @@ height = 144.0
 scale = Vector2(0.32, 0.32)
 shape = SubResource("CapsuleShape2D_rx8y4")
 
-[node name="Icon" type="Sprite2D" parent="CollisionShape2D" unique_id=1450248570]
-position = Vector2(-3.0994415e-06, -0.9999957)
-scale = Vector2(0.53125, 1.125)
-texture = ExtResource("1_4flbx")
+[node name="CBitmap" type="Sprite2D" parent="CollisionShape2D" unique_id=1136872273]
+position = Vector2(3.125, -31.25)
+scale = Vector2(0.47607422, 0.45166016)
+texture = ExtResource("1_3vyb7")
