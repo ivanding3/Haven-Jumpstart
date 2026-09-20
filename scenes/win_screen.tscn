@@ -13,7 +13,9 @@ offset_bottom = 1044.0
 color = Color(0, 0, 0, 1)
 
 [node name="Label" type="Label" parent="." unique_id=1092897245]
-offset_right = 1732.0
-offset_bottom = 1094.0
+offset_left = 32.0
+offset_top = -9.0
+offset_right = 1764.0
+offset_bottom = 1085.0
 theme_override_font_sizes/font_size = 272
 text = "You Won"
