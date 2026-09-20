@@ -6,8 +6,10 @@
 script = ExtResource("1_wv5lq")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1236891178]
-offset_right = 1870.0
-offset_bottom = 1141.0
+offset_left = -512.0
+offset_top = -282.0
+offset_right = 1694.0
+offset_bottom = 1044.0
 color = Color(0, 0, 0, 1)
 
 [node name="Label" type="Label" parent="." unique_id=1092897245]

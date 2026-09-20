@@ -13,5 +13,5 @@ func _process(delta: float) -> void:
 
 func _on_body_entered(body: Node2D) -> void:
 	if body.is_class("CharacterBody2D"):
-		find_child("*WinScreen").visible = true
-		get_parent().find_child("*Player").find_child("*Camera2D").position_smoothing_speed = 20
+		get_parent().find_child("Player").find_child("*WinScreen").visible = true
+		get_parent().find_child("Player").find_child("*Camera2D").position_smoothing_speed = 100
