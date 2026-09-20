@@ -22,6 +22,7 @@ func _physics_process(delta: float) -> void:
 	var direction := Input.get_axis("Left", "Right")
 	if direction:
 		velocity.x = direction * SPEED
+		position.x += direction
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 	for i in get_slide_collision_count():

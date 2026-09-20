@@ -1,11 +1,14 @@
 [gd_scene format=3 uid="uid://d0dd18x7vbu0a"]
 
+[ext_resource type="Script" uid="uid://dcywjy0tcl3xq" path="res://scripts/win_flag.gd" id="1_3a1rb"]
 [ext_resource type="Texture2D" uid="uid://btq8k7usus0kn" path="res://assets/crowbox.png" id="1_3pjhj"]
+[ext_resource type="PackedScene" uid="uid://dakex1d7774nh" path="res://scenes/win_screen.tscn" id="3_r6qfa"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rx8y4"]
 size = Vector2(62, 63)
 
 [node name="WinFlag" type="Area2D" unique_id=197753087]
+script = ExtResource("1_3a1rb")
 
 [node name="Crowbox" type="Sprite2D" parent="." unique_id=1195622035]
 position = Vector2(-3, 0)
@@ -20,4 +23,10 @@ offset_left = -33.0
 offset_top = -31.0
 offset_right = 40.0
 offset_bottom = 23.0
-text = "You win"
+text = "Grab it"
+
+[node name="WinScreen" parent="." unique_id=1443998878 instance=ExtResource("3_r6qfa")]
+visible = false
+position = Vector2(-587, -334)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

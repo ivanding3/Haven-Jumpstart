@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dakex1d7774nh"]
+
+[ext_resource type="Script" uid="uid://bxocckte5xepw" path="res://scenes/win_screen.gd" id="1_wv5lq"]
+
+[node name="WinScreen" type="Node2D" unique_id=1443998878]
+script = ExtResource("1_wv5lq")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1236891178]
+offset_right = 1870.0
+offset_bottom = 1141.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="." unique_id=1092897245]
+offset_right = 1732.0
+offset_bottom = 1094.0
+theme_override_font_sizes/font_size = 272
+text = "You Won"
