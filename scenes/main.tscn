@@ -97,6 +97,9 @@ position = Vector2(846, 547)
 [node name="Box2" parent="Boxes" unique_id=1804740244 instance=ExtResource("5_tbgi4")]
 position = Vector2(376, 322)
 
+[node name="WinFlag" parent="." unique_id=197753087 instance=ExtResource("6_tefeu")]
+position = Vector2(2399, 291)
+
 [node name="Player" parent="." unique_id=928807285 instance=ExtResource("2_0wfyh")]
 position = Vector2(52, 459)
 script = ExtResource("2_jyhfs")
@@ -109,6 +112,3 @@ position_smoothing_speed = 2.0
 [node name="WinScreen" parent="Player" unique_id=1443998878 instance=ExtResource("7_o6xl0")]
 visible = false
 position = Vector2(-639, -793)
-
-[node name="WinFlag" parent="." unique_id=197753087 instance=ExtResource("6_tefeu")]
-position = Vector2(2399, 291)
